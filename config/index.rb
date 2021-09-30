@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 require_relative 'add_text_to_readme'
 require_relative 'push_on_github'
 
