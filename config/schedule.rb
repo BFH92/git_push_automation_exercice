@@ -10,7 +10,7 @@
 # set :output, "/path/to/my/cron_log.log"
 #
 every 2.minutes do
-  command "ruby ~/GitHub_automation/index.rb"
+  command "cd ~/GitHub_automation/ && ruby ./index.rb"
 end
 #
 # every 4.days do
