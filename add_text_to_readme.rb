@@ -6,7 +6,7 @@ def add_text_to_readme(date, file_name)
   file.write("#### Voici une automatisation pour que votre fil de contributions soit vert tous les jours \n")
   file.write("Installation \n")
   
-  file.write("1/ Installation d'un cron \n")
+  file.write("\n1/ Installation d'un cron \n")
   file.write("$crontab -e \n ")
   file.write("insérer ensuite la ligne suivante en spécifiant le chemin où se trouve le repo que vous avez cloné")
   file.write("* * * * * /bin/bash -l -c 'cd /Users/Path/to/your/directory && ruby ~/your_directory/index.rb' &> /Users/Path/to/your/directory/cron.txt\n ")

@@ -2,6 +2,7 @@
 Les développeurs (même juniors) peuvent travailler tous les jours sans push sur GitHub.#LhabitNeFaitPasLeMoine
 #### Voici une automatisation pour que votre fil de contributions soit vert tous les jours 
 Installation 
+
 1/ Installation d'un cron 
 $crontab -e 
  insérer ensuite la ligne suivante en spécifiant le chemin où se trouve le repo que vous avez cloné* * * * * /bin/bash -l -c 'cd /Users/Path/to/your/directory && ruby ~/your_directory/index.rb' &> /Users/Path/to/your/directory/cron.txt
@@ -14,4 +15,4 @@ création d'un fichier .env
  $ gem install dotenv
  Et vous êtes bons ! 
  -----Metrics-----
-dernière contribution automatique - 2021-10-04 13:04:16 +0200
+dernière contribution automatique - 2021-10-04 13:04:53 +0200
