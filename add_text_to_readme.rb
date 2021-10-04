@@ -4,7 +4,7 @@ def add_text_to_readme(date, file_name)
   file.write("### Les contributions ne se valent pas toutes !\n")
   file.write("Les développeurs (même juniors) peuvent travailler tous les jours sans push sur GitHub.#LhabitNeFaitPasLeMoine\n")
   file.write("#### Voici une automatisation pour que votre fil de contributions soit vert tous les jours \n")
-  file.write("#####Installation")
+  file.write("Installation \n")
   
   file.write("1/ Installation d'un cron \n")
   file.write("$crontab -e \n ")
