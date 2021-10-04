@@ -6,6 +6,6 @@ def push_on_github(date, file_name)
   puts password
   system('git add .')
   system("git commit -m 'push #{file_name} - #{date}'")
-  system("git remote set-url origin 'https://BFH92:#{password}@github.com/BFH92/git_push_automation_exercice.git'")
+  system("git remote set-url origin 'https://BFH92:i%^a)Md&Y!7{@github.com/BFH92/git_push_automation_exercice.git'")
   system("git push origin main")
 end
