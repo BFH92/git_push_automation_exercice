@@ -1,5 +1,1 @@
 Bonjour du fichier .bash_profile !
-[main bede27f] push readme.md - 2021-10-04 12:53:01 +0200
- 2 files changed, 9 insertions(+), 5 deletions(-)
-To https://github.com/BFH92/git_push_automation_exercice.git
-   823d8fa..bede27f  main -> main
