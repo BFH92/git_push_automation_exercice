@@ -1,3 +1,0 @@
-#!/bin/bash
-. benoitfigea/.bash_profile 
-'ruby ~/GitHub_automation/index.rb'
