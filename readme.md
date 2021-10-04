@@ -9,7 +9,7 @@ $crontab -e
  
 insérer ensuite la ligne suivante en spécifiant le chemin où se trouve le repo que vous avez cloné
 
- * * * * * /bin/bash -l -c 'cd /Users/Path/to/your/directory && ruby ~/your_directory/index.rb' &> /Users/Path/to/your/directory/cron.txt
+ '* * * * * /bin/bash -l -c 'cd /Users/Path/to/your/directory && ruby ~/your_directory/index.rb' &> /Users/Path/to/your/directory/cron.txt'
  
 remplacer les '* * * * *' pour ajuster la fréquence de push. Vous pouvez tester le format ici => https://crontab.tech/
 
@@ -29,4 +29,4 @@ Et vous êtes bons !
  
 -----Metrics-----
 
-dernière contribution automatique - 2021-10-04 13:06:46 +0200
+dernière contribution automatique - 2021-10-04 13:07:14 +0200
