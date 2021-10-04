@@ -3,7 +3,13 @@ Les développeurs (même juniors) peuvent travailler tous les jours sans push su
 #### Voici une automatisation pour que votre fil de contributions soit vert tous les jours 
 Installation 
 
-1/ Installation d'un cron 
+ 1/ Cloner le repo https://github.com/BFH92/git_push_automation_exercice'
+ 
+ Push votre repo sur votre gitHub et copier l'adresse url'
+ 
+ Modifier l'url dans le fichier ./push_on_github.rb pour le faire correspondre à l'url de votre nouveau repo'
+ 
+2/ Installation d'un cron 
 
 $crontab -e 
  
@@ -13,7 +19,7 @@ insérer ensuite la ligne suivante en spécifiant le chemin où se trouve le rep
  
 remplacer les '* * * * *' pour ajuster la fréquence de push. Vous pouvez tester le format ici => https://crontab.tech/
 
-2/ création de la variable d'environnement Token, pour permettre le push via un gitHub token
+3/ création de la variable d'environnement Token, pour permettre le push via un gitHub token
 
 création d'un fichier .env
  
@@ -29,4 +35,4 @@ Et vous êtes bons !
  
 -----Metrics-----
 
-dernière contribution automatique - 2021-10-04 13:11:13 +0200
+dernière contribution automatique - 2021-10-04 13:18:53 +0200
