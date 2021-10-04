@@ -1,1 +1,4 @@
 Bonjour du fichier .bash_profile !
+[main c6c9a39] push readme.md - 2021-10-01 15:16:02 +0200
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+fatal: could not read Username for 'https://github.com': Device not configured
