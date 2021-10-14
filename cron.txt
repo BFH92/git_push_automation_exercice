@@ -1,1 +1,5 @@
 Bonjour du fichier .bash_profile !
+[main 1cbcc43] push readme.md - 2021-10-14 20:01:12 +0200
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+To https://github.com/BFH92/git_push_automation_exercice.git
+   eb27c3e..1cbcc43  main -> main
