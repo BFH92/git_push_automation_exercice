@@ -1,6 +1,1 @@
 Bonjour du fichier .bash_profile !
-<internal:/Users/benoitfigea/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0/rubygems/core_ext/kernel_require.rb>:85:in `require': cannot load such file -- dotenv (LoadError)
-	from <internal:/Users/benoitfigea/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0/rubygems/core_ext/kernel_require.rb>:85:in `require'
-	from /Users/benoitfigea/GitHub_automation/push_on_github.rb:1:in `<top (required)>'
-	from /Users/benoitfigea/GitHub_automation/index.rb:3:in `require_relative'
-	from /Users/benoitfigea/GitHub_automation/index.rb:3:in `<main>'
