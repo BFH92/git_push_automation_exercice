@@ -1,1 +1,4 @@
 Bonjour du fichier .bash_profile !
+[main 3ab75fd] push readme.md - 2021-11-05 20:00:01 +0100
+ 2 files changed, 1 insertion(+), 5 deletions(-)
+fatal: impossible d'accéder à 'https://github.com/BFH92/git_push_automation_exercice.git/' : Could not resolve host: github.com
